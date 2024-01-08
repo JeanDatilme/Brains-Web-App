@@ -9,7 +9,7 @@ function HomePage() {
         <div className='home-button-container'>
           <Link to='/productivity'>
           <div className='entertainment-option'>
-            <button class="custom-btn btn-1"><span>Productivity</span></button>
+            <button className ="custom-btn btn-1"><span>Productivity</span></button>
           </div>
           </Link>
         </div>
@@ -17,13 +17,13 @@ function HomePage() {
         <div className='home-button-container'>
           <Link to='entertainment'>
           <div className='entertainment-option'>
-            <button class="custom-btn btn-1"><span>Entertainment</span></button>
+            <button className ="custom-btn btn-1"><span>Entertainment</span></button>
           </div>
           </Link>
         </div>
       </div>
 
-    <div className='add-more-button-container'>  <div className='add-more-button-parent-container'><button class="custom-btn btn-12"><span>Coming Soon!</span><span>Add More +</span></button></div> </div>      
+    <div className='add-more-button-container'>  <div className='add-more-button-parent-container'><button className="custom-btn btn-12"><span>Coming Soon!</span><span>Add More +</span></button></div> </div>      
     
     </div>
   )

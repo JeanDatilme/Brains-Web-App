@@ -1,0 +1,104 @@
+.budgeting-app-container {
+  /* border: solid purple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.graph-bar-container{
+  border: solid Black;
+  height: 500px;
+  width: 1000px;
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.percentage-form-container{
+  /* border: solid green; */
+  height: 75px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.percentage-category-div {
+  /* border: solid blue; */
+  height: auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.percentage-ptag{
+  /* border: solid pink; */
+  height: 45px;
+  width: 100px;
+  margin: 0
+  ;
+}
+
+.percentage-button{
+  width: 150px;
+}
+
+.percentage-display-div{
+  /* border: solid gold; */
+  height:auto ;
+  width: auto;
+}
+
+.percentage-button-div{
+  /* border: solid purple; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Amount form css */ /* Amount form css */ /* Amount form css */ /* Amount form css */ /* Amount form css */ /* Amount form css */ /* Amount form css */
+.amount-form-container{
+  border: solid white;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.amount-form-div{
+  /* border: solid blue; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.amount-form-add-button{
+  /* border: solid purple; */
+  display: flex;
+  height: 35px;
+  width: auto;
+}
+
+.amount-text-area-div{
+  /* border: solid gold; */
+  display: flex;
+}
+
+.amount-text-area{
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+

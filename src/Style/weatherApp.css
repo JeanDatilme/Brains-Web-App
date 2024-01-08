@@ -1,0 +1,233 @@
+/* Weather Display css *//* Weather Display css *//* Weather Display css *//* Weather Display css *//* Weather Display css *//* Weather Display css */
+/* .button {
+  margin: 140px;
+} */
+
+.weather-main-app-container {
+  /* border:  solid purple; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather-app-container {
+  /* border: solid green; */
+  height: 100px;
+  width: auto;
+
+}
+
+.weather-app-div {
+  border: solid 1.5px black;
+  height: 85%;
+  width: 75px;
+  margin: 0%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.location-temp-condition-div {
+  /* border: solid blue; */
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  justify-content: space-evenly;
+}
+
+.location-name-div{
+  /* border: 1px solid green; */
+  height: auto;
+  width: auto;
+  margin: 0px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.tempature-text-div {
+  /* border: solid purple; */
+  height: auto;
+  width: auto;
+  padding: 0;
+  font-size: 10px;
+}
+
+.condition-text-div {
+  /* border: solid white; */
+  height: auto;
+  width: auto;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+.weather-p {
+  /* border: solid violet; */
+  height: auto;
+  width: auto;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.high-low-temp-div {
+  height: 20%;
+  width: auto;
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+}
+
+
+.high-condition-div {
+  /* border: solid palevioletred; */
+  height: auto;
+  width: auto;
+}
+
+.low-condition-div {
+  /* border: solid white; */
+  height: auto;
+  width: auto;
+}
+
+
+
+
+
+
+
+/* WeatherTimeTableDisplay Style css *//* WeatherTimeTableDisplay Style css *//* WeatherTimeTableDisplay Style css *//* WeatherTimeTableDisplay Style css *//* WeatherTimeTableDisplay Style css *//* WeatherTimeTableDisplay Style css */
+
+
+.weather-tt-display-container {
+  /* border: solid red; */
+  height: 90px;
+  width: 600px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+  
+}
+
+.time-section-div {
+  height: 90%;
+  width: 10%;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center; 
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  margin: 0%;
+}
+
+
+
+
+.weather-tt-text {
+  /* border: solid pink; */
+  height:100% ;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+
+
+.location-button-container {
+    /* border: solid pink; */
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-button-div {
+  /* border: solid green; */
+  height: auto;
+  width: auto;
+  
+
+
+}
+
+
+.location-btn-7 {
+  color: #000; /* Black text by default */
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17px;
+  width: 52px;
+  padding: 0;
+  border-style: solid; /* Solid border */
+  border-width: 1.5px; /* Adjusted border width */
+  z-index: 1;
+  border-radius: 10px; /* Adjust the value based on your preference */
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: transparent; /* Default transparent background */
+  margin: 20px;
+ 
+}
+
+.location-btn-7:hover {
+  background: #000; /* Black background on hover */
+  color: #fff; /* White text on hover */
+  font-family: system-ui;
+}
+
+.location-btn-7:before,
+.location-btn-7:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 50%;
+  right: 0;
+  z-index: -1;
+  background: #000; /* Default black background for the pseudo-elements */
+  transition: all 0.3s ease;
+  font-family: system-ui;
+}
+
+.location-btn-7:before {
+  top: 0;
+}
+
+.location-btn-7:after {
+  bottom: 0;
+}
+
+.location-btn-7:hover:before,
+.location-btn-7:hover:after {
+  height: 0;
+  background-color: transparent; /* Transparent background for the pseudo-elements on hover */
+  font-family: system-ui;
+}
+
+
+
+
+  
+
+
+
+
+
+
+

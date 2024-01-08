@@ -1,0 +1,275 @@
+
+
+
+
+
+
+.todoAppPageContainer {
+  /* border: 12px solid navy; */
+  height: 750px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoAppContainer {
+  height:90%;
+  width: 75%;
+  border: solid 2px #b1b1b1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+
+
+}
+
+
+/* Todo Header Css */
+.TodoHeaderContainer {
+  /* border: solid 12px red; */
+  height: 100px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* border: solid violet; */
+  padding-bottom: 5px;
+  /* background-color: whitesmoke;   */
+
+}
+
+.Todoheader {
+  /* border: solid 3px black; */
+  background-color: #b1b1b1;
+  color: black;
+  font-family: system-ui;
+  font-weight:bold;
+  font-size: 18px;
+  height: 110%;
+  width: 515px;
+  border-radius: 0 0 75% 75%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date{
+  /* border: solid 2px green; */
+  height: auto;
+  width: auto;
+  margin-top: 25px;
+}
+
+.taskCount{
+  height: auto;
+  width: auto;
+  /* border: solid 2px violet; */
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+/* Task Display CSS */
+.taskDisplayContainer {
+  /* border: solid red; */
+  height: 500px;
+  width: 100%;
+  font-size: 16px;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-top: 10px;
+  overflow: scroll;
+}
+
+.taskDisplayContainer::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* For Chrome/Safari/Opera */
+}
+
+
+
+
+
+
+
+
+.taskContainer {
+  height: 50px ;
+  width: auto;
+  /* border: solid 2px gold; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textContainer{
+  /* border: solid 2px #b1b1b1; */
+  height: 100%;
+  width: 360px;
+  resize: none;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.textContainer::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* For Chrome/Safari/Opera */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.deleteButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:10px ;
+  /* border: solid 2px red; */
+}
+
+.deleteCheckbox {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid lightcoral;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.deleteCheckbox:checked {
+  background-color:lightcoral;
+}
+
+
+.completeButtonContainer{
+  /* border: solid 2px blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:10px ;
+}
+
+.completeCheckbox {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(165, 246, 165);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.completeCheckbox:checked {
+  background-color:rgb(165, 246, 165);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Task Form CSS */
+.taskFormContainer {
+  height: 100px ;
+  width: 100% ;
+  /* border: solid 2px blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.form{
+  height: 80px ;
+  width: 100% ;
+  /* border: solid 2px blue; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.textInputContainer{
+  width: 390px;
+  height: 100%;
+  /* border: solid 2px red; */
+  margin-left: 10px;
+}
+
+.buttonContainer{
+  width: auto;
+  height: 100%;
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.fromButton{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: none;
+  background-color: #b1b1b1;
+  color: white;
+  font-size: 50px;
+  font-family: 'monospace','Lucida Console';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textInput{
+  height: 90%;
+  width: 98.5%;
+  resize: none;
+}
+
